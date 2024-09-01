@@ -14,25 +14,25 @@
 // nombreVariable = nuevo valor;
 
 // Varriables dentro de estructuras
-let edad
-if (nombreVariable) {
-    let edad // la variable es tottalmente local
-    var algo // esta si se crea desde la liena 1
-}
+// let edad
+// if (nombreVariable) {
+//     let edad // la variable es tottalmente local
+//     var algo // esta si se crea desde la liena 1
+// }
 
-let variableGlobal;
-// Funciones 
-function nombreFuncion() {
-    //agrupo diferentes acciones s
-    // solo se ejecutan cuando llamo a la función
-    console.log("funcion")
-    var edad
-    let edad // en las funciones var solo tiene scope local 
-    const edad=1
-    variableGlobal // accedo a una variable pero global
-    variablesinesxistir // como no la encuenta y la crea de forma glogal
-}
-console.log(typeof edad)
+// let variableGlobal;
+// // Funciones 
+// function nombreFuncion() {
+//     //agrupo diferentes acciones s
+//     // solo se ejecutan cuando llamo a la función
+//     console.log("funcion")
+//     var edad
+//     let edad // en las funciones var solo tiene scope local 
+//     const edad=1
+//     variableGlobal // accedo a una variable pero global
+//     variablesinesxistir // como no la encuenta y la crea de forma glogal
+// }
+// console.log(typeof edad)
 // tipos e valor
 // string
     // let nombre = "juan"
